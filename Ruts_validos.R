@@ -1,10 +1,11 @@
+#Permiso para utilizar el contenido del archivo 'Funciones.R'
 source('Funciones.R')
 
 #t: tiempo que se demora en ejecutar un codigo
 #def t: tiempo que se demora en recorrer la lista Ruts_validos
 #Ruts_validos: Generar numeros de rut y almacenarlos en una lista
 #Se generan 5000 numeros aleatorios entre 0:9999999 sin repeticion 
-#Cada uno acompañado de su dv
+#Cada uno acompaÃ±ado de su dv
 
 t <- proc.time()
 Ruts_validos <- list()
