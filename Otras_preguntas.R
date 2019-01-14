@@ -1,3 +1,24 @@
+#Permiso para utilizar el contenido del archivo 'Funciones.R'
+source('Funciones.R')
+
+#Pregunta 6 tarea 4
+
+#Contando_palabras: strsplit, string -> número de palabras
+#def strsplit: función que cuenta palabras
+
+frase <- ("porque la llama que llama estando en llamas me llama, alguien más llama")
+
+Contando_palabras
+#Respuesta: La frase contiene 10 palabras
+
+#Contando palabras unicas, para saber cuantas llamas hay
+unlistPalabras<- unlist(Contando_palabras)
+tablaPalabras <- table(unlistPalabras)
+print(tablaPalabras)
+#Respuesta: hay 1 llama animal, 3 llama de llamar
+
+unique(tolower(Contando_palabras))
+
 #Pregunta 8 tarea 4
 
 #ContarSaldoNegativo: Lista_Clientes -> SaldoNeg_Clientes
